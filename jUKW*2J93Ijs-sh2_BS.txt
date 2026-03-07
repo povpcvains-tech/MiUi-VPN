@@ -3,6 +3,9 @@ vless://b1732581-75dd-4101-8c3f-3fcf2d325c04@wap.tunnyl.ru:3440?encryption=none&
 vless://57bf5b0e-6f60-479c-a76b-04cce23ffe23@wap.tunnyl.ru:3440?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.net&fp=random&pbk=FsvBAlh5sdzEKr2mnFU9eFZKUPMcYf_gxcN08owMxyw&sid=e265b68a&spider=%2F&type=tcp&headerType=none#BlackList%20[3]
 vless://51c87b87-6099-4b24-a5f6-7fd90231654a@wap.tunnyl.ru:3440?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.net&fp=random&pbk=FsvBAlh5sdzEKr2mnFU9eFZKUPMcYf_gxcN08owMxyw&sid=e265b68a&spider=%2F&type=tcp&headerType=none#BlackList%20[4]
 vless://f2449a15-bc8e-4e33-a820-49d884ec41cc@wap.tunnyl.ru:3440?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.net&fp=random&pbk=FsvBAlh5sdzEKr2mnFU9eFZKUPMcYf_gxcN08owMxyw&sid=e265b68a&spider=%2F&type=tcp&headerType=none#BlackList%20[5]
+trojan://humanity@www.calmlunch.com:443/?type=ws&path=%2Fassignment&security=tls#AntiRKN%20[TG]
+vless://0d3e2d21-f31b-0bb8-b418-54cacd0be7c4@37.139.33.12:443?security=reality&encryption=none&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=d8c6b58bcbb0c323#AntiRKN%20[BL%2FWL]
+vless://bf77f272-4220-4655-ab76-5ccdf0d2a60f@95.174.94.194:443?security=reality&encryption=none&pbk=JaP4bhvIMW-l7T0_RkLra59DeBYI6W9XemKa8MyRPSY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=eh.vk.com&sid=6c6082a2223c1d03#AntiRKN%20[BL%2FWL]%20[2]
 
 
 
