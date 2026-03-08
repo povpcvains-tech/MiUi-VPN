@@ -53,6 +53,13 @@ vless://592e8509-2db6-46e1-93d4-d0eb1541b6fc@uk-1.vpnd.io:58020?type=tcp&securit
 vless://ab696651-ed20-45cd-87b7-711ffdae3028@uk-3.vpnd.io:23697?type=tcp&security=reality&encryption=none&pbk=YYUcc4uQ4CcgWSWBMTckd6T7_hrw1S7mrJ9pX4116zg&fp=random&sni=amazon.com&sid=6af5&spx=%2F&flow=xtls-rprx-vision#%F0%9F%87%AC%F0%9F%87%A7%20[VIP]%20AnyCat-IP%20[%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F]%20[2]
 vless://50424c5b-de6c-4d2e-980c-74114761bfd3@us-east-2.vpnd.io:14159?type=tcp&security=reality&encryption=none&pbk=csHT_eLH0xSFUjQ7C1_PkE7s2uWqW67fU_J_S6blDjA&fp=random&sni=amazon.com&sid=a5cf&spx=%2F&flow=xtls-rprx-vision#%F0%9F%87%BA%F0%9F%87%B8%20[VIP]%20AnyCat-IP%20[%D0%A1%D0%A8%D0%90]%20[1]
 
+#Gemini
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%2F--%5BGemini%5D--%5C
+#Gemini
+
+ss://YWVzLTI1Ni1nY206OHJiNTgwRUJHNGw3dE84Sw@154.53.60.197:80?#%F0%9F%87%BA%F0%9F%87%B8%20[AI]%20AnyCat-IP%20[%D0%A1%D0%A8%D0%90]
+ss://YWVzLTI1Ni1nY206bktlRTJaRldWYUU0RHlqUg@154.38.176.7:80?#%F0%9F%87%BA%F0%9F%87%B8%20[AI]%20AnyCat-IP%20[%D0%A1%D0%A8%D0%90]
+ss://YWVzLTI1Ni1nY206U003V1l0QXd2Qk9SWEtqSQ@154.53.63.42:80?#%F0%9F%87%BA%F0%9F%87%B8%20[AI]%20AnyCat-IP%20[%D0%A1%D0%A8%D0%90]
 
 #P2P
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%2F--%5BP2P%5D--%5C
