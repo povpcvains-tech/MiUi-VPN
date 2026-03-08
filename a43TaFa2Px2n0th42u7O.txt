@@ -2,6 +2,8 @@
 #profile-update-interval: 5
 #profile-description: Подписка для обхода блокировок | Обновление каждые 5 часов
 
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%2F--%5BAntiRKN%20%7C%20%40AntiRKN_V%5D--%5C
+
 #Основные
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%F0%9F%87%AA%F0%9F%87%BA%20%2F--%5B%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5%5D--%5C
 #Основные
@@ -24,12 +26,12 @@ vless://dae47700-f0f4-4b93-8bee-c84fda788fc4@45.151.182.251:11046?encryption=non
 
 
 #P2P
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#/--[P2P]--\
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%2F--%5BP2P%5D--%5C
 
 vless://d622af4b-2e2a-4f7a-af91-840bbdf0ca7a@72.56.100.35:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=1013a--ma--8935--cp199.stbid.ru&fp=edge&pbk=c4Mg3v790FPQbXO8uBoJysJYdFFJPhOw2TlnzC45a1U&sid=&spider=%2F&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20[P2P]%20AnyCat-IP%20[%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B]%20[1]
 
 #Белые списки
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#/--[LTE]--\
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%2F--%5BLTE%5D--%5C
 #Белые списки
 
 vless://c58a4c5d-413b-41cf-a303-466b8c2851ae@178.154.194.222:443?security=reality&encryption=none&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=111111#%F0%9F%87%B7%F0%9F%87%BA%20[LTE]%20AnyCat-IP%20[%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F]%20[1]
