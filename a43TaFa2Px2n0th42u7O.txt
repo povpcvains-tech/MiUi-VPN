@@ -14,8 +14,9 @@ vless://dc1b85fd-a08e-42d7-ae2b-0a320f3399b7@fi.kv.prod.n7.homes:8443?security=r
 vless://dc1b85fd-a08e-42d7-ae2b-0a320f3399b7@nl.kv.prod.n7.homes:8443?security=reality&encryption=none&pbk=upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo&headerType=none&fp=chrome&allowinsecure=0&type=tcp&sni=sun6-21.userapi.com&sid=3ca620a7ed5f3196#%F0%9F%87%B3%F0%9F%87%B1%20AnyCat-IP%20[%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B]%20[2]
 vless://dc1b85fd-a08e-42d7-ae2b-0a320f3399b7@us.prod.n7.homes:8443?security=reality&encryption=none&pbk=upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo&headerType=none&fp=chrome&allowinsecure=0&type=tcp&sni=sun6-21.userapi.com&sid=3ca620a7ed5f3196#%F0%9F%87%BA%F0%9F%87%B8%20AnyCat-IP%20[USA]%20[1]
 vless://dc1b85fd-a08e-42d7-ae2b-0a320f3399b7@lv.prod.n7.homes:8443?security=reality&encryption=none&pbk=upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo&headerType=none&fp=chrome&allowinsecure=0&type=tcp&sni=sun6-21.userapi.com&sid=3ca620a7ed5f3196#%F0%9F%87%B1%F0%9F%87%BB%20AnyCat-IP%20[%D0%9B%D0%B0%D1%82%D0%B2%D0%B8%D1%8F]%20[1]
+
 #Белые списки
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%F0%9F%87%BA%F0%9F%87%B3%2F--%5BLTE%5D--%5C
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%F0%9F%87%AA%F0%9F%87%BA%2F--%5BLTE%5D--%5C
 #Белые списки
 
 vless://c58a4c5d-413b-41cf-a303-466b8c2851ae@178.154.194.222:443?security=reality&encryption=none&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=111111#%F0%9F%87%B7%F0%9F%87%BA%20[LTE]%20AnyCat-IP%20[%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F]%20[1]
