@@ -4,6 +4,10 @@
 
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%2F--%5BAntiRKN%20%7C%20%40AntiRKN_V%5D--%5C
 
+#Для обновы
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%2F--%5B%D0%94%D0%9B%D0%AF%20%D0%9E%D0%91%D0%9D%D0%9E%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%AF%5D--%5C
+#Для обновы
+
 #Основные
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%2F--%5B%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5%5D--%5C
 #Основные
