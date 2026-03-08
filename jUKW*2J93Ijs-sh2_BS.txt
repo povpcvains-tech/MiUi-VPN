@@ -5,7 +5,7 @@ vless://57bf5b0e-6f60-479c-a76b-04cce23ffe23@wap.tunnyl.ru:3440?encryption=none&
 vless://51c87b87-6099-4b24-a5f6-7fd90231654a@wap.tunnyl.ru:3440?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.net&fp=random&pbk=FsvBAlh5sdzEKr2mnFU9eFZKUPMcYf_gxcN08owMxyw&sid=e265b68a&spider=%2F&type=tcp&headerType=none#BlackList%20[4]
 vless://f2449a15-bc8e-4e33-a820-49d884ec41cc@wap.tunnyl.ru:3440?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.net&fp=random&pbk=FsvBAlh5sdzEKr2mnFU9eFZKUPMcYf_gxcN08owMxyw&sid=e265b68a&spider=%2F&type=tcp&headerType=none#BlackList%20[5]
 vless://22620697-6fba-4b71-a348-0cef2f7bec1e@104.18.44.182:443/?type=ws&encryption=none&flow=&host=do88.cmddo.ggff.net&security=tls&sni=do88.cmddo.ggff.net#0100%20%7C%20%E2%98%81%EF%B8%8F%20Cloudflare%20%7C%20VLESS%20%7C%20TG%3A%20%40YoutubeUnBlockRu
-
+vless://949791ae-d2fb-4f5f-9fcb-c5e9030af261@150.241.70.87:443?security=reality&type=grpc&headerType=&serviceName=&authority=&mode=gun&sni=b.primarymaster.online&fp=chrome&pbk=SPHl8eat6QSJ5ptl9l-08tu1vEf_1QHRazZrBuqM6z8&sid=4332e1e3ea3950fa#BlackList%20[6]
 
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#[РЕЗЕРВ]
 vless://7de62dae-3cbd-4c29-a606-87c5dadb2f53@by-1-tun.directly.chat:1056?type=tcp&security=reality&encryption=none&pbk=1UZYbR2_E0tcGWRuXOIc3ohAFju1H2gD1rB2qGntd0E&fp=random&sni=otus.ru&sid=d765bd&spx=%2F&flow=xtls-rprx-vision#🇧🇾 Belarus - Minsk
@@ -36,6 +36,7 @@ vless://50424c5b-de6c-4d2e-980c-74114761bfd3@us-east-2.vpnd.io:14159?type=tcp&se
 
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%F0%9F%87%BA%F0%9F%87%B8%20%5B%D0%91%D0%B5%D0%BB%D1%8B%D0%B5%20%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8%5D
 vless://7559ad2a-a419-4fd7-bc6a-9350a017f72a@ya.asbndx.com:2777?security=reality&encryption=none&pbk=HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao&headerType=none&fp=edge&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=0f4dacf08722a29f#%F0%9F%87%B7%F0%9F%87%BALTE%2010%20%7C%E2%9A%A1%EF%B8%8F%7C%20%D0%92%D1%81%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B
+
 
 
 
