@@ -1,7 +1,5 @@
 #profile-title: AntiRKN
 #profile-update-interval: 5
 #profile-description: Подписка для обхода блокировок | Обновление каждые 5 часов
-#profile-web-page: https://github.com/tvoy-profile
-
 
 vless://6b2be981-7748-4a7c-b8d0-5efaa5ac30c3@84.201.136.24:443?security=reality&encryption=none&pbk=iGJ2pz2VpNyS4Ezw7rUW3j-gxCOb5fgkwkRKvegYMQ4&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=cdnv-img.perekrestok.ru&sid=029d04112902339a#%F0%9F%8C%90+Anycast-IP+%5B*CIDR%5D+YA
