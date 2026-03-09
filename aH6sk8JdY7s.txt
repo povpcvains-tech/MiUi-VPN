@@ -1,3 +1,7 @@
+#profile-title: AnyCat-IP
+#profile-update-interval: 5
+#profile-description: Подписка для обхода блокировок | Обновление каждые 5 часов
+
 #Белые списки
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%2F--%5BLTE%5D--%5C
 #Белые списки
