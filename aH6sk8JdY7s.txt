@@ -11,11 +11,6 @@ vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryp
 
 
 #Белые списки
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%2F--%5BLTE%5D--%5C
+vless://43477569-dc79-5256-bab9-8784d29fb182@0.0.0.0:1?encryption=none&security=none&type=tcp#%F0%9F%94%BD%20LTE%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D1%8B%20%F0%9F%93%B6%20%7C%20AnyCat-IP
 #Белые списки
-
-vless://c58a4c5d-413b-41cf-a303-466b8c2851ae@178.154.194.222:443?security=reality&encryption=none&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=111111#%F0%9F%87%B7%F0%9F%87%BA%20[LTE]%20AnyCat-IP%20[%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F]%20[1]
-vless://c58a4c5d-413b-41cf-a303-466b8c2851ae@51.250.93.180:443?security=reality&encryption=none&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=111111#%F0%9F%87%B7%F0%9F%87%BA%20[LTE]%20AnyCat-IP%20[%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F]%20[2]
-vless://7559ad2a-a419-4fd7-bc6a-9350a017f72a@ya.asbndx.com:2777?security=reality&encryption=none&pbk=HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao&headerType=none&fp=edge&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=0f4dacf08722a29f#%F0%9F%87%B7%F0%9F%87%BA%20[LTE]%20AnyCat-IP%20[%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F]%20[3]
-vless://e1b7c66e-ba8f-4ac5-bcef-29f60750b8a8@51.250.16.92:8444?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&fp=chrome&pbk=DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM&sid=28a059440d3d5ba1&spider=%2F&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20[LTE]%20AnyCat-IP%20[%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F]%20[4]
 
