@@ -8,6 +8,10 @@ vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryp
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%2F--%5B%D0%94%D0%9B%D0%AF%20%D0%9E%D0%91%D0%9D%D0%9E%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%AF%5D--%5C
 #Для обновы
 
+vless://d8757813-1101-4e30-a7e7-63e688bea1db@51.250.68.181:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=H2W1qvM0nUovlPadYco7_EWiZ_psfcLxOPJwOs3BDXU&security=reality&sid=fe2e437f64f2da7a&sni=ads.x5.ru&type=tcp#%F0%9F%87%AA%F0%9F%87%BA%5BFU%5D%20AnyCat%20%5B-%5D
+vless://7559ad2a-a419-4fd7-bc6a-9350a017f72a@51.250.75.126:2777?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao&security=reality&sid=0f4dacf08722a29f&sni=ads.x5.ru&type=tcp#%F0%9F%87%AA%F0%9F%87%BA%5BFU%5D%20AnyCat%20%5B-%5D
+vless://7559ad2a-a419-4fd7-bc6a-9350a017f72a@51.250.40.147:2777?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao&security=reality&sid=0f4dacf08722a29f&sni=ads.x5.ru&type=tcp#%F0%9F%87%AA%F0%9F%87%BA%5BFU%5D%20AnyCat%20%5B-%5D
+
 #WiFi
 vless://43477569-dc79-5256-bab9-8784d29fb182@0.0.0.0:2?encryption=none&security=none&type=tcp#%F0%9F%94%BD%20WiFi%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D1%8B%20%F0%9F%A4%9D%20%7C%20AnyCat-IP
 #WiFi
