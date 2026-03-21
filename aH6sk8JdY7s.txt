@@ -1,9 +1,6 @@
 #profile-title: AnyCat-IP
 #profile-update-interval: 5
-#profile-description: Подписка для обхода блокировок | Обновление каждые 5 часов
 
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?security=reality&encryption=none&pbk=00000000000000000000000000000000000000000000&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=example.com&sid=0000000000000000#%2F--%5BAntiRKN%20%7C%20%40AntiRKN_V%5D--%5C
-
-
 
 vless://278262fa-d28e-4b31-a82d-094f4725dffb@109.120.183.151:443?security=reality&encryption=none&pbk=bKtcNZo9VkxJ7xU1O8yEVeZqQ2jlWuaLEHhKycVXQ10&headerType=none&fp=edge&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=376f2f49a2#📡ERT-AntiRKN_V
