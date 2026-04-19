@@ -1,3 +1,7 @@
+#profile-title: AnyCat-IP📡
+#profile-update-interval: 1
+#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
+
 #
 vless://21af8395-088d-4667-8b63-1fc595fc13a5@falling-sunset.ru:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=purple-sound.falling-sunset.ru&fp=random&security=reality&pbk=sNJok8mzUK5qt9ta-CsHOvQNnlmAajGG5-xzTLJ9kU4&sid=902397e12310f121#%E2%AC%87%EF%B8%8F%20WiFi%20%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D1%8B%20%E2%AC%87%EF%B8%8F
 #
