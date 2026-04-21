@@ -1,1 +1,76 @@
-dmxlc3M6Ly80NTUwOTkzYy0yMTkxLTQ5M2EtYTYxMi1hYWJhNGE0ZWMwODNAMTU4LjE2MC4xOTkuNjU6MTQ0NDM/bW9kZT1ndW4mc2VjdXJpdHk9cmVhbGl0eSZlbmNyeXB0aW9uPW5vbmUmcGJrPU94YTdfcldodWk1akZJN3A4RnlnMEdfTXNldjUtVDZhYWxTNHEycU1WaUkmZnA9cmFuZG9taXplZCZ0eXBlPWdycGMmc2VydmljZU5hbWU9YWRtaW4mc25pPW96b24ucnUmc2lkPTM0MTUjJUYwJTlGJTg3JUIxJUYwJTlGJTg3JUJCJTIwJUQwJUEwJUQwJUI4JUQwJUIzJUQwJUIwJTIwJTIzJUQwJUEwJUQwJUI1JUQwJUI3JUQwJUI1JUQxJTgwJUQwJUIyJTIwJTdDJTIwJUQwJTlFJUQwJUIxJUQxJTg1JUQwJUJFJUQwJUI0JTIwJUQwJTkxJUQwJUExJTIwJTdDJTIwJUQxJTgyJUQwJUIzJUQwJUJBJTNBJTIwVmxlc3N0cm9nYW4=
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "port": 10808,
+      "protocol": "socks",
+      "tag": "socks",
+      "settings": {
+        "udp": true
+      }
+    },
+    {
+      "port": 10809,
+      "protocol": "http",
+      "tag": "http",
+      "settings": {}
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "tag": "proxy",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.199.65",
+            "port": 14443,
+            "users": [
+              {
+                "id": "4550993c-2191-493a-a612-aaba4a4ec083",
+                "flow": "",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ozon.ru",
+          "fingerprint": "randomized",
+          "publicKey": "Oxa7_rWhui5jFI7p8Fyg0G_Msev5-T6aalS4q2qMViI",
+          "shortId": "3415"
+        },
+        "grpcSettings": {
+          "serviceName": "admin",
+          "multiMode": true
+        }
+      }
+    },
+    {
+      "protocol": "freedom",
+      "tag": "direct",
+      "settings": {}
+    },
+    {
+      "protocol": "blackhole",
+      "tag": "block",
+      "settings": {}
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": ["geoip:private"]
+      }
+    ]
+  }
+}
