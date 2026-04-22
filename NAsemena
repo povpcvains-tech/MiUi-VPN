@@ -1,12 +1,115 @@
-#profile-title: AnyCat-IP📡 Semen
-#profile-update-interval: 1
-#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
-
-#
-vless://21af8395-088d-4667-8b63-1fc595fc13a5@falling-sunset.ru:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=purple-sound.falling-sunset.ru&fp=random&security=reality&pbk=sNJok8mzUK5qt9ta-CsHOvQNnlmAajGG5-xzTLJ9kU4&sid=902397e12310f121#%E2%AC%87%EF%B8%8F%20WiFi%20%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D1%8B%20%E2%AC%87%EF%B8%8F
-#
-
 [
+  {
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "8.8.8.8",
+        "1.1.1.1"
+      ]
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {}
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "⬇️ WiFi Серверы ⬇️",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "falling-sunset.ru",
+              "port": 443,
+              "users": [
+                {
+                  "id": "21af8395-088d-4667-8b63-1fc595fc13a5",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "purple-sound.falling-sunset.ru",
+            "fingerprint": "random",
+            "publicKey": "sNJok8mzUK5qt9ta-CsHOvQNnlmAajGG5-xzTLJ9kU4",
+            "shortId": "902397e12310f121"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        }
+      },
+      {
+        "tag": "dns-out",
+        "protocol": "dns"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "geosite:cn"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:cn"
+          ],
+          "outboundTag": "direct"
+        }
+      ]
+    }
+  },
   {
     "log": {
       "loglevel": "warning"
@@ -1907,14 +2010,452 @@ vless://21af8395-088d-4667-8b63-1fc595fc13a5@falling-sunset.ru:443/?type=tcp&enc
         }
       ]
     }
+  },
+  {
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "8.8.8.8",
+        "1.1.1.1"
+      ]
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {}
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "⬇️ Тестовые сервера ⬇️",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "falling-sunset.ru",
+              "port": 443,
+              "users": [
+                {
+                  "id": "21af8395-088d-4667-8b63-1fc595fc13a5",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "purple-sound.falling-sunset.ru",
+            "fingerprint": "random",
+            "publicKey": "sNJok8mzUK5qt9ta-CsHOvQNnlmAajGG5-xzTLJ9kU4",
+            "shortId": "902397e12310f121"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        }
+      },
+      {
+        "tag": "dns-out",
+        "protocol": "dns"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "geosite:cn"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:cn"
+          ],
+          "outboundTag": "direct"
+        }
+      ]
+    }
+  },
+  {
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "8.8.8.8",
+        "1.1.1.1"
+      ]
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {}
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "🇵🇹LTE | Все операторы",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "51.250.76.122",
+              "port": 5443,
+              "users": [
+                {
+                  "id": "9b5407b1-5fe1-44ba-b66f-f3e354cdb559",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "fingerprint": "chrome",
+            "publicKey": "LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ",
+            "shortId": ""
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        }
+      },
+      {
+        "tag": "dns-out",
+        "protocol": "dns"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "geosite:cn"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:cn"
+          ],
+          "outboundTag": "direct"
+        }
+      ]
+    }
+  },
+  {
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "8.8.8.8",
+        "1.1.1.1"
+      ]
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {}
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "🇩🇪 Германия | Резерв",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "31.56.7.90",
+              "port": 443,
+              "users": [
+                {
+                  "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "sni.latonyamadeline.ndjp.net",
+            "allowInsecure": false
+          },
+          "wsSettings": {
+            "path": "/?ed=2560&https://t.me/WangCai2🇨🇳",
+            "headers": {
+              "Host": "sni.latonyamadeline.ndjp.net"
+            }
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        }
+      },
+      {
+        "tag": "dns-out",
+        "protocol": "dns"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "geosite:cn"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:cn"
+          ],
+          "outboundTag": "direct"
+        }
+      ]
+    }
+  },
+  {
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "8.8.8.8",
+        "1.1.1.1"
+      ]
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {}
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "🇫🇮 Финляндия | Резерв",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "138.124.9.190",
+              "port": 16558,
+              "users": [
+                {
+                  "id": "11348c0f-b646-446a-bad7-b2b39c6de767",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "gpuopen.com",
+            "fingerprint": "chrome",
+            "publicKey": "vDKgmefC_2JaSrrvQSsb7DU3KBeKUlXG1V0vgdjv_i4",
+            "shortId": "0a856e071790b1"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        }
+      },
+      {
+        "tag": "dns-out",
+        "protocol": "dns"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "geosite:cn"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:cn"
+          ],
+          "outboundTag": "direct"
+        }
+      ]
+    }
   }
 ]
-
-
-#
-vless://21af8395-088d-4667-8b63-1fc595fc13a5@falling-sunset.ru:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=purple-sound.falling-sunset.ru&fp=random&security=reality&pbk=sNJok8mzUK5qt9ta-CsHOvQNnlmAajGG5-xzTLJ9kU4&sid=902397e12310f121#%E2%AC%87%EF%B8%8F%20%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0%20%E2%AC%87%EF%B8%8F
-#
-
-vless://9b5407b1-5fe1-44ba-b66f-f3e354cdb559@51.250.76.122:5443?security=reality&encryption=none&pbk=LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=max.ru#%F0%9F%87%B5%F0%9F%87%B9LTE%20%7C%20%D0%92%D1%81%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@31.56.7.90:443?path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&encryption=none&insecure=0&host=sni.latonyamadeline.ndjp.net&type=ws&allowInsecure=0&sni=sni.latonyamadeline.ndjp.net#%F0%9F%87%A9%F0%9F%87%AA%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%7C%20%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2
-vless://11348c0f-b646-446a-bad7-b2b39c6de767@138.124.9.190:16558?security=reality&encryption=none&pbk=vDKgmefC_2JaSrrvQSsb7DU3KBeKUlXG1V0vgdjv_i4&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gpuopen.com&sid=0a856e071790b1#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%7C%20%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2
