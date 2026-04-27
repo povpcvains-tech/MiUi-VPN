@@ -64,3 +64,8 @@ hysteria2://d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a@yy.xbs54as9c6.ru:8002?security=
 vless://21af8395-088d-4667-8b63-1fc595fc13a5@falling-sunset.ru:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=purple-sound.falling-sunset.ru&fp=random&security=reality&pbk=sNJok8mzUK5qt9ta-CsHOvQNnlmAajGG5-xzTLJ9kU4&sid=902397e12310f121#%E2%AC%87%EF%B8%8F%20%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0%20%E2%AC%87%EF%B8%8F
 #
 
+vless://934d165a-0e02-44da-a9ea-7dbb22a9acc4@158.160.218.225:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&fp=chrome&security=reality&pbk=4kf5MM_Dw3BZd23dl6OpO6Vt2L4V8hqZyDYjeLa3hl0&sid=3ce7835c#%F0%9F%87%B7%F0%9F%87%BAYandexVPS
+vless://a88ea8bf-7001-4e29-a9bb-379f6778195c@free.nexyonn.com:443?security=reality&encryption=none&pbk=iNnoaSfyKvdo5kp5znHSGFNqFxNhS0ormvHHHwsUSTM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=0123456789abcdef#%F0%9F%87%B7%F0%9F%87%BALTE%20%7C%20%D0%92%D1%81%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B%20%2311
+hysteria2://d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a@yy.xbs54as9c6.ru:8002?security=tls&insecure=1&sni=rbc.ru#%F0%9F%8C%90LTE%20%7C%20%D0%92%D1%81%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B%20%2310
+hysteria2://d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a@yy.xbs54as9c6.ru:443?security=tls&insecure=1&sni=rbc.ru#%F0%9F%8C%90LTE%20%7C%20%D0%92%D1%81%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B%20%239
+hysteria2://d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a@yy.xbs54as9c6.ru:8002?security=tls&insecure=1&sni=rbc.ru#%F0%9F%87%A7%F0%9F%87%B8LTE%20%7C%20%D0%92%D1%81%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B%20%234
