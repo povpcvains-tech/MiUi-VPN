@@ -17,10 +17,14 @@ vless://6caaa16d-fb80-4849-9357-0e7b1764acfc@s60052.cdn.ngenix.net:443?path=%2Fw
 vless://6caaa16d-fb80-4849-9357-0e7b1764acfc@s42701.cdn.ngenix.net:443?path=%2Fws&security=tls&encryption=none&alpn=h3,h2,http/1.1&host=s42701.cdn.ngenix.net&fp=chrome&allowinsecure=0&type=ws&sni=s42701.cdn.ngenix.net#%F0%9F%87%B5%F0%9F%87%B1+%E2%9A%A1+LTE+%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0
 vless://6caaa16d-fb80-4849-9357-0e7b1764acfc@s46706.cdn.ngenix.net:443?path=%2Fws&security=tls&encryption=none&alpn=h3,h2,http/1.1&host=s46706.cdn.ngenix.net&fp=chrome&allowinsecure=0&type=ws&sni=s46706.cdn.ngenix.net#%F0%9F%87%B7%F0%9F%87%BA+%E2%9A%A1+LTE+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F
 vless://6caaa16d-fb80-4849-9357-0e7b1764acfc@disk.api-yandex.net:443?security=reality&encryption=none&pbk=L9-Bva1kUloZdyX9vReDLSfUsKXulAxSL37LscocqFE&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=0f4dacf08721e29f#%F0%9F%87%AA%F0%9F%87%BA+%E2%9A%A1+LTE+%D0%95%D0%B2%D1%80%D0%BE%D0%BF%D0%B0
+-другие
+vless://7d4b662e-6b9a-4e8a-91eb-132d6a111a98@84.201.177.174:443?security=reality&encryption=none&pbk=xiBnF5t8koXllU1GwzSRmU0Vcbs21DEHCg399WUg1EM&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=fd8ab74160501169#LTE+%7C+TRAFFIC+%E2%9C%85
+
 
 -Резервный
 
 vless://6caaa16d-fb80-4849-9357-0e7b1764acfc@disk.api-yandex.net:2777?security=reality&encryption=none&pbk=HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=0f4dacf08722a29f#%F0%9F%87%B7%F0%9F%87%BA+%E2%9A%A1+LTE+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F+%5BR%5D
+vless://002ec02a-5cdf-4448-a1ff-156c79bb2c68@top3386413774.mwscdn.ru:443?path=%2Flive&security=tls&encryption=none&host=top1976727224.mwscdn.ru&fp=chrome&allowinsecure=0&type=ws&sni=mwscdn.ru#%F0%9F%87%AA%F0%9F%87%BALTE+%7C+TRAFFIC+%E2%9C%85
 
 -Тут WIFI Сервера:
 #
@@ -29,6 +33,10 @@ vless://.@wifi.ru:443?security=none&encryption=none&headerType=none&type=tcp&flo
 
 -Авто выбор:
 vless://6caaa16d-fb80-4849-9357-0e7b1764acfc@by.api-yandex.net:443?security=reality&encryption=none&pbk=DjRqjdBkJgAG_le5Q14JXTki6m9XCsNKxgw74IB0kR4&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=by.api-yandex.net&sid=0f4dacf62211e75f#%F0%9F%87%AA%F0%9F%87%BA+%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%5BWIFI%5D
+
+-Другие сервера
+
+
 
 -Разделение 
 
@@ -39,6 +47,8 @@ vless://6caaa16d-fb80-4849-9357-0e7b1764acfc@fl.api-yandex.net:443?security=real
 #-5
 vless://6caaa16d-fb80-4849-9357-0e7b1764acfc@pl.api-yandex.net:443?security=reality&encryption=none&pbk=I4lUR4e9kgCZUY_yd2vY_nOcLw0B-e-CNOQxgBgAJn8&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=pl.api-yandex.net&sid=0f4dacf88252e05f#%F0%9F%87%B5%F0%9F%87%B1+%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0+%7C+YT+%D0%B1%D0%B5%D0%B7+%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B
 vless://6caaa16d-fb80-4849-9357-0e7b1764acfc@ru.api-yandex.net:443?security=reality&encryption=none&pbk=jm1tsCkTKsXunYTjcdHLu_whRQRkZWlWdGbSFDVyREw&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ru.api-yandex.net&sid=0f4dacf89993e20f#%F0%9F%87%B7%F0%9F%87%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F+%7C+YT+%D0%B1%D0%B5%D0%B7+%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B
+-игровые
+vless://6caaa16d-fb80-4849-9357-0e7b1764acfc@93.115.25.122:443?security=reality&encryption=none&pbk=q_5Tfp_XKPzQdOtiLkVePVMQE6UVAV9xK_WxTULcJSA&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=lt.api-yandex.net&sid=00011cf66101e75f#%F0%9F%87%B1%F0%9F%87%B9+%D0%9B%D0%B8%D1%82%D0%B2%D0%B0+%E2%80%A2+Gaming+%F0%9F%8E%AE
 vless://6caaa16d-fb80-4849-9357-0e7b1764acfc@185.189.46.67:443?security=reality&encryption=none&pbk=pU7ElcbPMVObHoWqGThioVD4i5ux_phWFwElN97aDSQ&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=sw.api-yandex.net&sid=0f4dacf89993e21f#%F0%9F%87%B8%F0%9F%87%AA+%D0%A8%D0%B2%D0%B5%D1%86%D0%B8%D1%8F+%E2%80%A2+Gaming+%F0%9F%8E%AE
 vless://6caaa16d-fb80-4849-9357-0e7b1764acfc@fl.api-yandex.net:443?security=reality&encryption=none&pbk=jm1tsCkTKsXunYTjcdHLu_whRQRkZWlWdGbSFDVyREw&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=fl.api-yandex.net&sid=0f4dacf89993e11f#%F0%9F%87%AB%F0%9F%87%AE+%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F+%E2%80%A2+Gaming+%F0%9F%8E%AE
 vless://6caaa16d-fb80-4849-9357-0e7b1764acfc@kr-most.api-yandex.net:443?security=reality&encryption=none&pbk=MUr-0xaCfV0855VUaQnAKaPB1uzb_0W6GWRWH141pDQ&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=kr-most.api-yandex.net&sid=0a77acf82203e11f#%F0%9F%87%B0%F0%9F%87%B7+%D0%AE%D0%B6%D0%BD%D0%B0%D1%8F+%D0%9A%D0%BE%D1%80%D0%B5%D1%8F
